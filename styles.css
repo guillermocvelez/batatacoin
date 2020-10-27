@@ -208,6 +208,63 @@ main{
     color: var(--grey);
     background-color: var(--white);
 }
+
+/*----------------------------------------------*/
+
+.main-exchange-container .comision-table--title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--secondary-blue);
+    /* text-align: left; */
+}
+
+.comision-table--container{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    /* text-align: left; */
+}
+
+.comision-table--container table{
+    width: 100%;
+    height: 100%;
+}
+.comision-table--container td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--white);
+}
+
+.hide{
+    display:none
+}
+
+.comision-table--date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top:15px;
+    padding:10px;
+    background-color: var(--soft-blue);
+    border-radius: 5px;
+}
+.comision-table--date p{
+    /* margin:7px; */
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
+}
+
+/*----------------------------------------------------------------------------**/
+
+
 .table__top-left{
     border-radius: 15px 0 0 0;
 }
@@ -226,4 +283,22 @@ main{
     font-weight: normal;
     line-height: 1.7rem;
     color:#757575;
+}
+
+.currency-table--date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top:15px;
+    padding:10px;
+    background-color: var(--soft-orange);
+    border-radius: 5px;
+}
+
+.currency-table--date p{
+    /* margin:7px; */
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
 }
