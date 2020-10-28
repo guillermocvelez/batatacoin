@@ -176,7 +176,7 @@ main{
     max-width: 500px;
     height: 360px;
     margin:0 auto;
-    font-family: 'Intern',sans-serif;
+    font-family: 'Inten',sans-serif;
 }
 
 .main-exchange-container .currency-table--title{
@@ -309,7 +309,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding:20px 10px;
+    padding:20px 0px;
     background-color: var(--warm-black);
 }
 .product-detail--batata-logo{
@@ -347,6 +347,11 @@ main{
     font-weight: 500;
     line-height: 1.8rem;
     color:#808080;
+}
+
+.product-cards--containder{
+    width: 100%;
+    margin:0 auto;
 }
 
 .product-detail-card{
@@ -440,3 +445,123 @@ main{
     color: var(--white);
     text-align: center;
 }
+
+.main-plans-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+
+.plans--title h2{
+    padding-top:50px ;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.plans--title p{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:#757575;
+}
+
+.plans-container--card{
+    position: relative;
+    width:60%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin:50px auto;
+    padding:0 15px;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+}
+
+.recommended{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left:calc(50% - 60px);
+    top:-15px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 5px;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    padding:8px;
+}
+.plan-card-title{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color:var(--black);
+    
+}
+
+.plan-card--price{
+    padding:5px;
+    font-family: 'Inter',sans-serif;
+    font-size: 5.3rem;
+    font-weight: 700;
+    line-height: 6.29rem;
+    color:var(--warm-black)
+}
+
+.plan-card--price span{
+    vertical-align: 25px;
+    font-size: 1.2rem;
+    
+}
+.plan-card--saving{
+    font-family: 'Inter',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: #757575;
+}
+.plan-card--ca{
+    display: flex;
+    
+    margin-bottom:25px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin:20px auto;
+    cursor: pointer;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.plan-card--ca span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('./assets/icons/flechaNaranjaDerecha.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--warm-black);
+
+    }
+    
+
