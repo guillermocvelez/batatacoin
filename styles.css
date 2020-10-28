@@ -220,6 +220,15 @@ main{
     /* text-align: left; */
 }
 
+.main-comision-table{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin:0 auto;
+    font-family: 'Inten',sans-serif;
+}
+
 .comision-table--container{
     width: 90%;
     min-width: 230px;
@@ -240,10 +249,6 @@ main{
     line-height: 1.9rem;
     color: var(--grey);
     background-color: var(--white);
-}
-
-.hide{
-    display:none
 }
 
 .comision-table--date{
@@ -567,7 +572,7 @@ main{
 
     .plans-container--slider{
         display: flex;
-        height: 316px;
+        height: auto;
         overflow-x: scroll;
         overscroll-behavior-x: contain;
         scroll-snap-type: x proximity;
@@ -603,6 +608,8 @@ main{
         text-decoration: none;
         color: var(--white);
     }
+
+
 
     
     
